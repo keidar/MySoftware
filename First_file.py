@@ -8,5 +8,5 @@ def new_buttom():
     print("click")
 
     
-print(welcome())
-print(new_buttom())
+welcome()
+new_buttom()
