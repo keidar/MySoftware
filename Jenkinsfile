@@ -12,11 +12,8 @@ pipeline {
         stage('run python') {
             steps {
                 script {
-                    if (Boolean.valueOf(env.UNIX)) {
-                        sh 'python First_file.py'
-                    } else {
-                        sh 'python First_file.py'
-                    }
+                    sh 'python First_file.py'
+
                 }
             }
         }
